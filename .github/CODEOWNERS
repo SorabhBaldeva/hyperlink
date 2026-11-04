@@ -1,0 +1,28 @@
+# HyperLink Code Owners
+# These owners will be automatically requested for review when PRs modify these paths
+
+# Critical transfer logic - requires careful review
+/apps/web/src/lib/transfer/ @SorabhBaldeva
+/apps/web/src/lib/webrtc/ @SorabhBaldeva
+
+# Security-sensitive middleware and auth
+/apps/web/src/middleware.ts @SorabhBaldeva
+/apps/web/src/lib/middleware/ @SorabhBaldeva
+/apps/web/src/lib/services/auth-service.ts @SorabhBaldeva
+
+# Database schema changes
+/supabase/schema.sql @SorabhBaldeva
+/supabase/reset_database.sql @SorabhBaldeva
+/supabase/migrations/ @SorabhBaldeva
+
+# Signaling server
+/apps/signaling/ @SorabhBaldeva
+
+# Encryption and security
+/apps/web/src/lib/crypto/ @SorabhBaldeva
+/apps/web/src/lib/workers/encryption-worker.ts @SorabhBaldeva
+
+# Configuration files
+/.github/ @SorabhBaldeva
+/turbo.json @SorabhBaldeva
+/package.json @SorabhBaldeva
